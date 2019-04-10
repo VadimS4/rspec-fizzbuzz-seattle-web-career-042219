@@ -9,9 +9,8 @@ def fizzbuzz(num)
   elsif num % 3 = 0 && num % 5 = 0
     return "FizzBuzz"
     
-  elsif num % 3 != 0 && num % 5 != 0
+  else
     return "nil"
     
-  else
-    return ""
+  end
 end
